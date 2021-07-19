@@ -1,0 +1,201 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	/* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #ff5f6d, #ffc371);
+	/* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #ff5f6d, #ffc371);
+	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	user-select: none;
+}
+
+
+.CalculatorContainer {
+	margin: auto;
+	margin-top: 3%;
+	width: 350px;
+	height: 565px;
+	border-radius: 15px;
+	box-shadow: 0 25px 60px -10px rgba(0, 0, 0, 0.5);
+	background-color: rgb(167, 167, 231);
+	border-bottom: 15px;
+	position: relative;
+}
+
+.CalculatorNumberButtonsContainer {
+	display: grid;
+	grid-template-columns: 87.5px 87.5px 87.5px 87.5px;
+	justify-content: center;
+	background-color: rgb(249, 249, 249);
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+}
+
+.TopActivityButtonsContainer {
+	display: flex;
+	justify-content: center;
+}
+
+.TopActivityBTN {
+	border: none;
+	color: white;
+	font-size: 25px;
+	text-align: center;
+	height: 60px;
+	width: 87.5px;
+	cursor: pointer;
+	background-color: #302f2f;
+	outline: none;
+}
+
+.TopActivityBTN:hover {
+	background-color: #cfcccc;
+	color: black;
+	border-color: rgb(116, 53, 53);
+	outline: none;
+}
+
+.TopActivityBTN:active {
+	color: rgb(0, 255, 170);
+	outline: none;
+}
+
+.SideActivityBtn {
+	display: inline-block;
+	border: none;
+	color: white;
+	font-size: 45px;
+	text-align: center;
+	width: 87.5px;
+	cursor: pointer;
+	background-color: #9c9c9c;
+	outline: none;
+}
+
+.SideActivityBtn:hover {
+	background-color: #f1f1f1;
+	color: black;
+	border-color: #bbb;
+	outline: none;
+}
+
+.SideActivityBtn:active {
+	color: rgb(0, 255, 170);
+	outline: none;
+}
+
+
+.NumberBTN {
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-weight: 500;
+	display: inline-block;
+	border: none;
+	width: 87.5px;
+	font-size: 35px;
+	text-align: center;
+	padding: 35px;
+	cursor: pointer;
+	background-color: #f9f9f9;
+	outline: none;
+}
+
+.NumberBTN:hover {
+	background-color: #f1f1f1;
+	outline: none;
+	border-radius: 20px;
+}
+
+.NumberBTN:active {
+	color: blue;
+	outline: none;
+	background-color: #e7e7e7;
+	border-radius: 20px;
+}
+
+.CE-BTN{
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	border: none;
+	font-size: 20px;
+	font-weight: bold;
+	cursor: pointer;	
+	outline: none;
+	border-bottom-left-radius: 15px;
+	border-top-right-radius: 15px;
+	background-color: #f9f9f9;
+	color: #0000007c;
+}
+
+.CE-BTN:hover{
+	background-color: #f1f1f1;
+	border-color: rgb(235, 232, 232);
+	outline: none;
+	border-top-right-radius: 20px;
+}
+.CE-BTN:active{
+	color: red;
+	outline: none;	
+	border-top-right-radius: 20px;
+	background-color: #e7e7e7;
+}
+
+.DOT-BTN:hover{
+border-bottom-left-radius: 0px;
+}
+
+.BTN-7:hover{
+	border-top-right-radius: 0px;
+}
+
+.BTN-9:hover{
+	border-top-right-radius: 0px;
+	border-top-left-radius: 0px;
+}
+
+.EQUALBTNCLASS {
+	background: linear-gradient(60deg, #ff0300, #ffa100);
+	border-bottom-right-radius: 15px;
+	outline: none;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-weight: 500;
+	border: none;
+	font-size: 35px;
+	width: 87.5px;
+	cursor: pointer;
+	outline: none;
+	color: white;
+}
+
+.EQUALBTNCLASS:active {
+    background: linear-gradient(60deg, #ffa100, #ff0300);
+	
+}
+
+#InputID {
+	font-size: 45px;
+	width: 340px;
+	padding: 5px;
+	padding-bottom: 8px;
+	color: white;
+	background: none;
+	border: none;
+	text-align: end;
+	outline: none;
+	background-color: black;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+
+}
+
+
+#Footer {
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	text-align: center;
+	font-weight: bold;
+	margin-top: 12vh;
+}
